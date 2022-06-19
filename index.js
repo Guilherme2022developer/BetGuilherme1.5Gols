@@ -255,9 +255,11 @@ function somar() {
 
     if (resultado <= 3.6) {
         alert("Jogo não aprovado, risco alto")
+        document.location.reload(true);
 
     } else {
         alert("A média de gols para essa partida é acima de 1.5")
+        document.location.reload(true);
     }
 }
 
