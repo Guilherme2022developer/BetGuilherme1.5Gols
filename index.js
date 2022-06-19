@@ -253,7 +253,7 @@ function somar() {
 
     var resultado = result + resultf;
 
-    if (resultado <= 3.8) {
+    if (resultado <= 3.6) {
         alert("Jogo não aprovado pra over, risco alto")
 
     } else {
