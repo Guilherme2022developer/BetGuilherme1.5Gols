@@ -254,11 +254,11 @@ function somar() {
     var resultado = result + resultf;
 
     if (resultado <= 3.6) {
-        alert("Jogo não aprovado, risco alto")
+        alert("Partida não aprovada, procurar outra por favor")
         document.location.reload(true);
 
     } else {
-        alert("A média de gols para essa partida é acima de 1.5")
+        alert("A média de gols para essa partida é acima de 1.5 \n Probabilidade de mais de 80%")
         document.location.reload(true);
     }
 }
