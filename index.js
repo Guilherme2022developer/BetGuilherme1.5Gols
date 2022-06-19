@@ -255,11 +255,11 @@ function somar() {
 
     if (resultado <= 3.6) {
         alert("Partida não aprovada, procurar outra por favor")
-        document.location.reload(true);
+      
 
     } else {
         alert("A média de gols para essa partida é acima de 1.5 \n Probabilidade de mais de 80%")
-        document.location.reload(true);
+       
     }
 }
 alert("Seja bem-vindo, meu é Guilherme o projeto funciona da seguinte forma: \n Você vai escolher uma partida de futebol e vai pegar o número de gols do time da casa marcados nos últimos 10 jogos inserir nos campos a abaixo, e o time de fora da mesma forma e clicar no botão ver  resultado, vamos lá?")
