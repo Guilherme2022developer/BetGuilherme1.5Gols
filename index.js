@@ -254,7 +254,7 @@ function somar() {
     var resultado = result + resultf;
 
     if (resultado <= 3.6) {
-        alert("Jogo não aprovado pra over, risco alto")
+        alert("Jogo não aprovado, risco alto")
 
     } else {
         alert("A média de gols para essa partida é acima de 1.5")
